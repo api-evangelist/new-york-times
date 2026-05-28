@@ -1,0 +1,32 @@
+aid: new-york-times
+name: New York Times
+description: "The New York Times Developer Network"
+url: https://developer.nytimes.com/
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "News"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - News
+  - Public APIs
+apis:
+  - name: New York Times
+    description: "The New York Times Developer Network"
+    humanURL: https://developer.nytimes.com/
+    baseURL: https://developer.nytimes.com/
+    tags:
+      - News
+    properties:
+      - type: Documentation
+        url: https://developer.nytimes.com/
+common:
+  - type: Website
+    url: https://developer.nytimes.com/
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
