@@ -1,0 +1,22 @@
+generated: '2026-07-11'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: developer.nytimes.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Aug 20 03:39:39 2026 GMT
+  hsts: null
+domains:
+- domain: nytimes.com
+  dnssec: false
+  caa:
+  - 0 issue "amazon.com"
+  - 0 issue "amazonaws.com"
+  - 0 issue "amazontrust.com"
+  - 0 issue "awstrust.com"
+  - 0 issue "certainly.com"
+  - 0 issue "comodoca.com"
+  spf: true
+  dmarc: true
+  dmarc_policy: reject

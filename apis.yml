@@ -23,6 +23,10 @@ apis:
       - type: Documentation
         url: https://developer.nytimes.com/
 common:
+  - type: VulnerabilityDisclosure
+    url: security/new-york-times-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/new-york-times-domain-security.yml
   - type: Website
     url: https://developer.nytimes.com/
   - type: PublicAPIsListing
