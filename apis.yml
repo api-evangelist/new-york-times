@@ -1,4 +1,16 @@
 aid: new-york-times
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/new-york-times.png
 name: New York Times
 description: "The New York Times Developer Network"
 url: https://developer.nytimes.com/
