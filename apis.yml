@@ -14,7 +14,7 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/new-york-t
 name: New York Times
 description: "The New York Times Developer Network"
 url: https://developer.nytimes.com/
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-05-28'
 modified: '2026-05-28'
 x-source: public-apis/public-apis
